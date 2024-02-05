@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Encriptador de texto - Alura Challenge ONE</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./logica.js"></script>
+</head>
+<body>
+<h1>Mi encriptador</h1>    
+<h3>
+    Descripción
+</h3>
+<p>Las "llaves" de encriptación que utilizaremos son las siguientes:</p>
+    <ul>
+        <li>letra "e" es convertida para "enter"</li>
+        <li>La letra "i" es convertida para "imes"</li>
+        <li>La letra "a" es convertida para "ai"</li>
+        <li>La letra "o" es convertida para "ober"</li>
+        <li>La letra "u" es convertida para "ufat"</li>                              
+    </ul>
+
+<label for="aencriptar">Escribe aqui el texto que deseas encriptar:</label>
+<input type="text" name="aencriptar" id="aencriptar" required>
+
+<div class="btnGeneral">
+    <button class="btnEncriptar" type="submit" onclick="encriptarTexto()">Encriptar texto</button>
+    <button class="btnDesencriptar" type="submit" onclick="desencriptarTexto()">Desencriptar</button>
+    <button type="submit" onclick="limpiarCaja()">Borrar</button>
+    <button type="submit" onclick="copiarTexto()">Copiar</button>
+</div>
+
+<p id="texto-encriptado"></p>
+
+</body>
+</html>

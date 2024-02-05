@@ -1,0 +1,17 @@
+.btnGeneral{
+    display: flex;
+}
+
+.btnEncriptar{
+    background-color: cornflowerblue;
+    border-color: blue;
+    border-radius: 5cap;
+    color: #fff;
+}
+
+.btnDesencriptar{
+    border-radius: 1cap;
+    background-color: #fff;
+    border-color: cornflowerblue;
+    color: cornflowerblue;
+}
